@@ -2,9 +2,12 @@
 
 This repository is a collection of Python implementations of various Reinforcement Learning (RL) algorithms. The *primary* goal is **educational**: to get a deep and intuitive understanding of how these algorithms work under the hood. 🧠 Due to the recent explosion in the AI domain especially Large Language Models, and many more applications it is important to understand core reinforcement learning algorithms.
 
+This repository also includes a [comprehensive cheat sheet](cheatsheet.md) summarizing key concepts and algorithms for quick reference.
+
 **This is *not* a performance-optimized library!** I prioritize readability and clarity over speed and advanced features. Think of it as your interactive textbook for RL.
 
 ## Updates:
+- **2 April 2025**: Added a comprehensive [RL Cheat Sheet](cheatsheet.md) summarizing all implemented algorithms and core concepts. Repository now includes 18 algorithm notebooks.
 - **30 March 2025**: Added 18 new algorithms.
 
 ## 🌟 Why This Repo?
@@ -13,6 +16,7 @@ This repository is a collection of Python implementations of various Reinforceme
 - **Beginner-Friendly:** Step-by-step explanations guide you through each algorithm, even if you're new to RL. 👶
 - **Interactive Learning:** Jupyter Notebooks provide a playground for experimentation. Tweak hyperparameters, modify the code, and *see* what happens! 🧪
 - **Clear and Concise Code:** We strive for readable code that closely mirrors the mathematical descriptions of the algorithms. No unnecessary complexity! 👌
+- **Quick Reference:** Includes a detailed [Cheat Sheet](cheatsheet.md) for fast lookups of formulas, pseudocode, and concepts.
 
 ## 🗺️ Roadmap: Algorithms Covered (and Coming Soon)
 
@@ -42,6 +46,18 @@ The repository currently includes implementations of the following RL algorithms
 | [PlaNet (Deep Planning Network)](18_planet.ipynb)        | Planning  |   Is a model-based RL agent that learns a world model from experience and uses this model to plan future actions.  | [18_planet.ipynb](18_planet.ipynb)         |
 
 Each algorithm has its own Jupyter Notebook (`.ipynb`) file with a detailed explanation and implementation.
+
+## 📚 RL Cheat Sheet
+
+Complementing the detailed notebooks, a comprehensive **[RL Cheat Sheet](RL_Cheat_Sheet.md)** is included in this repository. It serves as a quick reference guide covering:
+
+*   Core RL Concepts (MDPs, Bellman Equations, etc.)
+*   Algorithm Summaries (Core Idea, Math, Pseudocode)
+*   Key Hyperparameters and Tuning Tips
+*   Pros & Cons and Use Cases
+*   Code Snippets for key update rules
+
+➡️ **[View the RL Cheat Sheet here](RL_Cheat_Sheet.md)**
 
 ## 🛠️ Installation and Setup
 
@@ -78,8 +94,9 @@ Follow these steps to get started:
     *   Change hyperparameters (learning rate, discount factor, exploration rate) and observe the effect on learning curves.
     *   Modify the environment (e.g., change the grid size, add obstacles) and see how the algorithms adapt.
     *   Extend the algorithms (e.g., implement epsilon decay, add a baseline to REINFORCE).
-5.  **Tackle Advanced Methods:** Gradually work through the more complex notebooks on DQN (`13_dqn.ipynb`), Actor-Critic (`8_a2c.ipynb`), PPO (`7_ppo.ipynb`), Model-Based RL with PlaNet (`18_planet.ipynb`), and multi-agent learning with MADDPG (`14_maddpg.ipynb`) and QMIX (`15_qmix.ipynb`).
-6.  **Run the A3C Implementation:** Due to complexities with multiprocessing in Jupyter Notebooks, the A3C implementation is in `a3c_training.py`. Run it from the command line: `python a3c_training.py`
+5.  **Consult the Cheat Sheet:** Refer to the **[RL Cheat Sheet](RL_Cheat_Sheet.md)** for quick summaries, formulas, and pseudocode while studying the notebooks.
+6.  **Tackle Advanced Methods:** Gradually work through the more complex notebooks on DQN (`13_dqn.ipynb`), Actor-Critic (`8_a2c.ipynb`), PPO (`7_ppo.ipynb`), Model-Based RL with PlaNet (`18_planet.ipynb`), and multi-agent learning with MADDPG (`14_maddpg.ipynb`) and QMIX (`15_qmix.ipynb`).
+7.  **Run the A3C Implementation:** Due to complexities with multiprocessing in Jupyter Notebooks, the A3C implementation is in `a3c_training.py`. Run it from the command line: `python a3c_training.py`
 
 ## 🖼️ What You'll See: Visualizing Learning
 
