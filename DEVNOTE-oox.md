@@ -21,4 +21,7 @@ uv pip install -r requirements.txt
 python -c "import torch; print(torch.__version__); print(torch.version.cuda)"
 #2.6.0+cpu
 #None
+
+# ipykernel 을 requirements.txt 써서 설치하면 이유는 모를 에러 발생. 그냥 별도로 설치
+uv pip install ipykernel
 ```
