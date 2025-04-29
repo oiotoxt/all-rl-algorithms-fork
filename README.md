@@ -49,7 +49,7 @@ Each algorithm has its own Jupyter Notebook (`.ipynb`) file with a detailed expl
 
 ## 📚 RL Cheat Sheet
 
-Complementing the detailed notebooks, a comprehensive **[RL Cheat Sheet](RL_Cheat_Sheet.md)** is included in this repository. It serves as a quick reference guide covering:
+Complementing the detailed notebooks, a comprehensive **[RL Cheat Sheet](cheatsheet.md)** is included in this repository. It serves as a quick reference guide covering:
 
 *   Core RL Concepts (MDPs, Bellman Equations, etc.)
 *   Algorithm Summaries (Core Idea, Math, Pseudocode)
@@ -57,7 +57,7 @@ Complementing the detailed notebooks, a comprehensive **[RL Cheat Sheet](RL_Chea
 *   Pros & Cons and Use Cases
 *   Code Snippets for key update rules
 
-➡️ **[View the RL Cheat Sheet here](RL_Cheat_Sheet.md)**
+➡️ **[View the RL Cheat Sheet here](cheatsheet.md)**
 
 ## 🛠️ Installation and Setup
 
@@ -94,7 +94,7 @@ Follow these steps to get started:
     *   Change hyperparameters (learning rate, discount factor, exploration rate) and observe the effect on learning curves.
     *   Modify the environment (e.g., change the grid size, add obstacles) and see how the algorithms adapt.
     *   Extend the algorithms (e.g., implement epsilon decay, add a baseline to REINFORCE).
-5.  **Consult the Cheat Sheet:** Refer to the **[RL Cheat Sheet](RL_Cheat_Sheet.md)** for quick summaries, formulas, and pseudocode while studying the notebooks.
+5.  **Consult the Cheat Sheet:** Refer to the **[RL Cheat Sheet](cheatsheet.md)** for quick summaries, formulas, and pseudocode while studying the notebooks.
 6.  **Tackle Advanced Methods:** Gradually work through the more complex notebooks on DQN (`13_dqn.ipynb`), Actor-Critic (`8_a2c.ipynb`), PPO (`7_ppo.ipynb`), Model-Based RL with PlaNet (`18_planet.ipynb`), and multi-agent learning with MADDPG (`14_maddpg.ipynb`) and QMIX (`15_qmix.ipynb`).
 7.  **Run the A3C Implementation:** Due to complexities with multiprocessing in Jupyter Notebooks, the A3C implementation is in `a3c_training.py`. Run it from the command line: `python a3c_training.py`
 
